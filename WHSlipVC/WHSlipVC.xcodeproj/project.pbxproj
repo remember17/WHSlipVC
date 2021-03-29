@@ -7,26 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		688C25F82611AB760029D65A /* LeftVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 688C25F62611AB760029D65A /* LeftVC.m */; };
+		688C25F92611AB760029D65A /* LeftVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 688C25F72611AB760029D65A /* LeftVC.xib */; };
+		688C25FE2611AB860029D65A /* CenterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 688C25FC2611AB860029D65A /* CenterVC.m */; };
+		688C25FF2611AB860029D65A /* CenterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 688C25FD2611AB860029D65A /* CenterVC.xib */; };
+		688C26072611AF720029D65A /* WHSlipVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 688C26062611AF720029D65A /* WHSlipVC.m */; };
 		689FB28C20ECB4F200F2DD86 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 689FB28B20ECB4F200F2DD86 /* AppDelegate.m */; };
-		689FB28F20ECB4F200F2DD86 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 689FB28E20ECB4F200F2DD86 /* ViewController.m */; };
 		689FB29420ECB4F400F2DD86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 689FB29320ECB4F400F2DD86 /* Assets.xcassets */; };
 		689FB29720ECB4F400F2DD86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 689FB29520ECB4F400F2DD86 /* LaunchScreen.storyboard */; };
 		689FB29A20ECB4F400F2DD86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 689FB29920ECB4F400F2DD86 /* main.m */; };
-		689FB2A220ECB52900F2DD86 /* WHMenuVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 689FB2A120ECB52900F2DD86 /* WHMenuVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		688C25F52611AB760029D65A /* LeftVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeftVC.h; sourceTree = "<group>"; };
+		688C25F62611AB760029D65A /* LeftVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeftVC.m; sourceTree = "<group>"; };
+		688C25F72611AB760029D65A /* LeftVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LeftVC.xib; sourceTree = "<group>"; };
+		688C25FB2611AB860029D65A /* CenterVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CenterVC.h; sourceTree = "<group>"; };
+		688C25FC2611AB860029D65A /* CenterVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CenterVC.m; sourceTree = "<group>"; };
+		688C25FD2611AB860029D65A /* CenterVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CenterVC.xib; sourceTree = "<group>"; };
+		688C26052611AF720029D65A /* WHSlipVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WHSlipVC.h; sourceTree = "<group>"; };
+		688C26062611AF720029D65A /* WHSlipVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHSlipVC.m; sourceTree = "<group>"; };
 		689FB28720ECB4F200F2DD86 /* WHSlipVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WHSlipVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		689FB28A20ECB4F200F2DD86 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		689FB28B20ECB4F200F2DD86 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		689FB28D20ECB4F200F2DD86 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		689FB28E20ECB4F200F2DD86 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		689FB29320ECB4F400F2DD86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		689FB29620ECB4F400F2DD86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		689FB29820ECB4F400F2DD86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		689FB29920ECB4F400F2DD86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		689FB2A020ECB52900F2DD86 /* WHMenuVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WHMenuVC.h; sourceTree = "<group>"; };
-		689FB2A120ECB52900F2DD86 /* WHMenuVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHMenuVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +47,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		688C26042611AF620029D65A /* WHSlipVC */ = {
+			isa = PBXGroup;
+			children = (
+				688C26052611AF720029D65A /* WHSlipVC.h */,
+				688C26062611AF720029D65A /* WHSlipVC.m */,
+			);
+			path = WHSlipVC;
+			sourceTree = "<group>";
+		};
 		689FB27E20ECB4F200F2DD86 = {
 			isa = PBXGroup;
 			children = (
@@ -59,12 +75,15 @@
 		689FB28920ECB4F200F2DD86 /* WHSlipVC */ = {
 			isa = PBXGroup;
 			children = (
+				688C26042611AF620029D65A /* WHSlipVC */,
 				689FB28A20ECB4F200F2DD86 /* AppDelegate.h */,
 				689FB28B20ECB4F200F2DD86 /* AppDelegate.m */,
-				689FB28D20ECB4F200F2DD86 /* ViewController.h */,
-				689FB28E20ECB4F200F2DD86 /* ViewController.m */,
-				689FB2A020ECB52900F2DD86 /* WHMenuVC.h */,
-				689FB2A120ECB52900F2DD86 /* WHMenuVC.m */,
+				688C25FB2611AB860029D65A /* CenterVC.h */,
+				688C25FC2611AB860029D65A /* CenterVC.m */,
+				688C25FD2611AB860029D65A /* CenterVC.xib */,
+				688C25F52611AB760029D65A /* LeftVC.h */,
+				688C25F62611AB760029D65A /* LeftVC.m */,
+				688C25F72611AB760029D65A /* LeftVC.xib */,
 				689FB29320ECB4F400F2DD86 /* Assets.xcassets */,
 				689FB29520ECB4F400F2DD86 /* LaunchScreen.storyboard */,
 				689FB29820ECB4F400F2DD86 /* Info.plist */,
@@ -99,7 +118,7 @@
 		689FB27F20ECB4F200F2DD86 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = wuhao;
 				TargetAttributes = {
 					689FB28620ECB4F200F2DD86 = {
@@ -130,8 +149,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				688C25F92611AB760029D65A /* LeftVC.xib in Resources */,
 				689FB29720ECB4F400F2DD86 /* LaunchScreen.storyboard in Resources */,
 				689FB29420ECB4F400F2DD86 /* Assets.xcassets in Resources */,
+				688C25FF2611AB860029D65A /* CenterVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,10 +163,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				689FB28F20ECB4F200F2DD86 /* ViewController.m in Sources */,
 				689FB29A20ECB4F400F2DD86 /* main.m in Sources */,
-				689FB2A220ECB52900F2DD86 /* WHMenuVC.m in Sources */,
+				688C25F82611AB760029D65A /* LeftVC.m in Sources */,
+				688C26072611AF720029D65A /* WHSlipVC.m in Sources */,
 				689FB28C20ECB4F200F2DD86 /* AppDelegate.m in Sources */,
+				688C25FE2611AB860029D65A /* CenterVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +211,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -214,7 +237,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -247,6 +270,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -266,7 +290,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;

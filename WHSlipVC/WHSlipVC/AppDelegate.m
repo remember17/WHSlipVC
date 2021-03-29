@@ -7,8 +7,9 @@
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
-#import "WHMenuVC.h"
+#import "WHSlipVC.h"
+#import "CenterVC.h"
+#import "LeftVC.h"
 
 @interface AppDelegate ()
 
@@ -16,18 +17,15 @@
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:[[ViewController alloc] init]];
-    
-    WHMenuVC *menuVC = [[WHMenuVC alloc] initWithLeftVC:nil centerVC:nav];
+    WHSlipVC *slipVC = [[WHSlipVC alloc] initWithLeftVC:[LeftVC new] centerVC:[CenterVC new]];
     
     _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
     _window.backgroundColor = [UIColor whiteColor];
     
-    _window.rootViewController = menuVC;
+    _window.rootViewController = slipVC;
     
     [_window makeKeyAndVisible];
     
